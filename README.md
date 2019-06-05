@@ -321,6 +321,7 @@ public static boolean position2(String pos, String symbol){
 
 
 public static boolean checkWin(){
+
     if(arr[0][0].equals(TicTacToe.player1Symbol()) && arr[0][2].equals(TicTacToe.player1Symbol()) && arr[0][4].equals(TicTacToe.player1Symbol())){
         return true;
     }
